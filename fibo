@@ -1,0 +1,8 @@
+a,num1,num2=2,0,1
+n = int(input("Enter the number of elements:"))
+print("%d,%d,"%(num1,num2))
+while a < n:
+    num3 = num1 + num2
+    print(num3)
+    num1,num2=num2,num3
+    a += 1
